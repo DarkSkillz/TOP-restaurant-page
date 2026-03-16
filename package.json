@@ -1,0 +1,25 @@
+{
+  "name": "top-restaurant-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DarkSkillz/TOP-restaurant-page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/DarkSkillz/TOP-restaurant-page/issues"
+  },
+  "homepage": "https://github.com/DarkSkillz/TOP-restaurant-page#readme",
+  "devDependencies": {
+    "webpack": "^5.105.4",
+    "webpack-cli": "^7.0.1"
+  }
+}
