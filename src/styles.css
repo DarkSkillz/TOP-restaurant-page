@@ -26,11 +26,11 @@ footer {
 }
 
 #Home {
-    display: none;
+    display: inline;
 }
 #Menu {
     display: none;
 }
 #Contact {
-    display: inline;
+    display: none;
 }
