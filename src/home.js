@@ -51,6 +51,7 @@ const homeSection = (() => {
     hoursDiv.append(hoursHeading, hoursList)
     locationDiv.append(locationHeading, locationParagraph)
     homeSection.append(flavorHeading, flavorDiv, hoursDiv, locationDiv)
+    
     const load = () => {
         main.append(homeSection)
     }

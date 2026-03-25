@@ -21,15 +21,19 @@ main {
     flex: 1;
 }
 
+.dish-photo {
+    width: 300px;
+}
+
 footer {
     background-color: rgba(24, 90, 214, 0.226);
 }
 
 #Home {
-    display: inline;
+    display: none;
 }
 #Menu {
-    display: none;
+    display: inline;
 }
 #Contact {
     display: none;
