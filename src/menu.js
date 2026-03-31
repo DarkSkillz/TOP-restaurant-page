@@ -62,7 +62,7 @@ const menuSection = (() => {
         return card
     }
 
-    const load = () => {
+    (() => {
         const dishCardOne = createCard("main-dish-card","Dish Name","$50.00","Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam, voluptatem?", animeGif)
         const dishCardTwo = createCard("main-dish-card","Dish Name","$50.00","Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam, voluptatem?", animeGif)
         const dishCardThree = createCard("main-dish-card","Dish Name","$50.00","Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam, voluptatem?", animeGif)
@@ -75,17 +75,16 @@ const menuSection = (() => {
         const dessertCardTwo = createCard("dessert-card","Dessert Name","$50.00","Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, illum.", animeGif)
         const dessertCardThree = createCard("dessert-card","Dessert Name","$50.00","Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, illum.", animeGif)
         const dessertCardFour = createCard("dessert-card","Dessert Name","$50.00","Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, illum.", animeGif)
-        const dessertCardFive = createCard("dessert-card","Dessert Name","$50.00","Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, illum.", animeGif)
-        const dessertCardSix = createCard("dessert-card","Dessert Name","$50.00","Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, illum.", animeGif)
         const beverageCardOne = createCard("beverage-card","Beverage Name","$50.00","Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, magni!", animeGif)
         const beverageCardTwo = createCard("beverage-card","Beverage Name","$50.00","Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, magni!", animeGif)
         const beverageCardThree = createCard("beverage-card","Beverage Name","$50.00","Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, magni!", animeGif)
         const beverageCardFour = createCard("beverage-card","Beverage Name","$50.00","Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, magni!", animeGif)
-        const beverageCardFive = createCard("beverage-card","Beverage Name","$50.00","Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, magni!", animeGif)
-        const beverageCardSix = createCard("beverage-card","Beverage Name","$50.00","Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, magni!", animeGif)
         dishCardHolder.append(dishCardOne, dishCardTwo, dishCardThree, dishCardFour, dishCardFive, dishCardSix, dishCardSeven, dishCardEight)
         dessertCardHolder.append(dessertCardOne, dessertCardTwo, dessertCardThree, dessertCardFour)
         beverageCardHolder.append(beverageCardOne, beverageCardTwo, beverageCardThree, beverageCardFour)
+    })()
+    
+    const load = () => {
         main.append(menuSection)
     }
 
