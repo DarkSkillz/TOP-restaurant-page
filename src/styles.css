@@ -42,13 +42,9 @@ main {
     flex: 1;
 }
 
-.dish-photo {
-    width: 300px;
-}
-
 footer {
     background-color: rgb(0, 11, 61);
-    height: 40px;
+    height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -102,7 +98,66 @@ footer {
 }
 
 #Menu {
-    display: none;
+    display: grid;
+    grid-template-columns: 1fr auto auto;
+}
+
+
+.menu-holder {
+    border: 5px solid #fff;
+}
+
+.menu-holder h3 {
+    margin: 5px;
+    font-size: 1.5rem;
+}
+
+#main-dish-menu {
+    display: grid;
+    grid-template-columns: 460px 460px;
+    margin-top: 11px;
+}
+
+.main-dish-card,
+.dessert-card,
+.beverage-card  {
+    margin: 10px;
+    border: 1px solid orange;
+    display: flex;
+    width: 450px;
+    justify-content: space-between;
+}
+
+.dessert-card,
+.beverage-card {
+    margin: 20px 10px;
+}
+
+.card-text {
+    padding: 5px;
+    height: 150px;
+    width: 250px;
+}
+
+.card-text p {
+    margin: 2px 0;
+}
+
+.card-text p:first-of-type {
+    font-weight: 1000;
+}
+
+.card-text p:nth-of-type(2) {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.dish-photo {
+    margin-right: 10px;
+    align-self: center;
+    width: 200px;
+    height: 130px;
+    border: 1px solid #fff;
 }
 
 #Contact {
