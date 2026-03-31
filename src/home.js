@@ -33,7 +33,7 @@ const homeSection = (() => {
     hoursListItemFri.className = "hour"
     hoursListItemSat.className = "hour"
     // InnerText
-    flavorHeading.innerText = "Welcome to {placeholder}"
+    flavorHeading.innerText = "Welcome to Lobster Burrow"
     flavorParagraph.innerText = "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum eum voluptatem ipsa autem molestiae animi ad eaque amet corporis odit?"
     hoursHeading.innerText = "Hours"
     locationHeading.innerText = "Location"

@@ -28,7 +28,7 @@ const contactSection = (() => {
     ownerHolderDiv.append(ownerHeading, ownerParagraph)
     managerHolderDiv.append(managerHeading, managerParagraph)
     staffHolderDiv.append(staffHeading, staffParagraph)
-    contactSection.append(ownerHolderDiv,managerHolderDiv,staffHolderDiv)
+    contactSection.append(ownerHolderDiv, managerHolderDiv, staffHolderDiv)
 
     const load = () => {
         main.append(contactSection)
